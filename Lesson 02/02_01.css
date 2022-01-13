@@ -1,0 +1,12 @@
+main{
+    flex-wrap: wrap;
+    gap: 3px 3px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: calc(50vw - 8px);
+    min-height: calc(50vh - 8px);
+    border: 1px solid var(--color-primary);
+}
