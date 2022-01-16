@@ -5,8 +5,20 @@ main{
     align-items: center;
     height: 100vh;
 }
+
 .box{
     width: calc(50vw - 8px);
     min-height: calc(50vh - 8px);
     border: 1px solid var(--color-primary);
+}
+
+/*main :nth-child(4)  {
+    background-color: white;
+}*/
+
+.boxNew{
+    width: calc(50vw - 8px);
+    min-height: calc(50vh - 8px);
+    border: 1px solid var(--color-primary);
+    background-color: white;
 }

@@ -1,11 +1,26 @@
-main{
+.box {
+    border: 1px solid var(--color-primary);
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-.box{
-    width: calc(100vw - 2px);
-    height: calc(100vh - 2px);
-    border: 1px solid var(--color-primary);
 }
 
+#one {
+    width: calc(100vw - 2px);
+    height: calc(100vh - 2px);
+}
+
+#two {
+    width: 75vw;
+    height: 75vh;
+}
+
+#three {
+    width: 50vw;
+    height: 50vh;
+}
+
+#four {
+    width: 25vw;
+    height: 25vh;
+}
