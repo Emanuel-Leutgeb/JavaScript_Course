@@ -42,10 +42,16 @@ hoverMe.addEventListener("mouseover", hoverMeFunction);
 let pressKey = document.getElementById("pressKey")
 
 function pressKeyFunction() {
-    if (pressKey.style.backgroundColor === "var(--color-secondary)"){
-        pressKey.style.backgroundColor = "white"
-    } else {
-        pressKey.style.backgroundColor = "var(--color-secondary)";
+    if(event.key === "s"){
+        if (pressKey.style.backgroundColor === "var(--color-secondary)"){
+            pressKey.style.backgroundColor = "white"
+        } else {
+            pressKey.style.backgroundColor = "var(--color-secondary)";
+        }
     }
+
 }
-pressKey.addEventListener("keydown", pressKeyFunction);
+document.addEventListener("keydown", function (event){
+    console.log(event.key);
+    pressKeyFunction();
+});

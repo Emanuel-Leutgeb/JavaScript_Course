@@ -1,46 +1,18 @@
-function clickMeOneFunction(element, number) {
-    if (number === 1 && element.style.backgroundColor === "var(--color-secondary)") {
-        element.style.backgroundColor = "white";
-    } else {
-        element.style.backgroundColor = "var(--color-secondary)";
-    }
+let one = document.getElementById("one")
+let two = document.getElementById("two")
+let three = document.getElementById("three")
+let four = document.getElementById("four")
 
-}
+one.onclick = clickMeFunction;
+two.onclick = clickMeFunction;
+three.onclick = clickMeFunction;
+four.onclick = clickMeFunction;
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-function clickMeTwoFunction() {
-
-}
-
-
-/*--------------------------------------------------------------------------------------------------------------------*/
-function clickMeThreeFunction() {
-    if (clickMeThree.style.backgroundColor === "var(--color-secondary)") {
-        clickMeThree.style.backgroundColor = "white";
-    } else {
-        clickMeThree.style.backgroundColor = "var(--color-secondary)";
+function clickMeFunction(event) {
+    this.style.backgroundColor = "white";
+    event.stopPropagation();
+    console.log(document);
+    if (this !== document.children[0].children[1].children[0].firstElementChild){
+        this.parentNode.style.backgroundColor = "var(--color-primary)";
     }
 }
-
-/*--------------------------------------------------------------------------------------------------------------------*/
-function clickMeFourFunction(element) {
-    console.log(element.id);
-    element.style.backgroundColor = "white";
-    if (clickMeFour.style.backgroundColor === "var(--color-secondary)") {
-        clickMeFour.style.backgroundColor = "white";
-    } else {
-        clickMeFour.style.backgroundColor = "var(--color-secondary)";
-    }
-}
-
-
-// function clickMeFunction(element) {
-//     console.log(element.id);
-//
-//     if (element.style.backgroundColor === "var(--color-secondary)"){
-//         element.style.backgroundColor = "white";
-//     } else {
-//         element.style.backgroundColor = "var(--color-secondary)";
-//     }
-// }
-
