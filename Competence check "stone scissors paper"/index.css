@@ -1,0 +1,34 @@
+header {
+    height: 20vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+#names {
+    justify-content: space-around;
+}
+
+main {
+    flex-direction: column;
+    text-align: center;
+}
+
+.select{
+    justify-content: center;
+    align-items: center;
+}
+
+#randomComputer{
+    min-height: 200px;
+}
+
+img {
+    background-color: transparent;
+    margin: var(--spacing-xxxl) var(--spacing-xxl);
+}
+
+footer{
+    text-align: center;
+}

@@ -9,40 +9,27 @@
 <body>
 <header>
     <h1>Stone - Scissors - Paper</h1>
-    <div>
-        NAME
-    </div>
-    <div>
-        Computer
+    <div id="names" class="flex">
+        <h2 id="myName"></h2>
+        <h2>VS</h2>
+        <h2>Computer</h2>
     </div>
 </header>
-<main>
-    <div>
-        Stone
+<main class="flex">
+    <div  class="flex select">
+        <img src="../img/stone.png" alt="Stone" onclick="game(1)">
+        <img src="../img/scissors.png" alt="Scissors" onclick="game(2)">
+        <img src="../img/paper.png" alt="Paper" onclick="game(3)">
     </div>
-    <div>
-        Scissors
-    </div>
-    <div>
-        Paper
-    </div>
-    <div>
-        VS
-    </div>
-    <div>
-        Computer's choice
+    <h3>Computers choice</h3>
+    <div  class="flex select">
+        <img id="randomComputer">
     </div>
 </main>
 <footer>
-    <div>
-        Round:
-    </div>
-    <div>
-        Count Name
-    </div>
-    <div>
-        Count Computer
-    </div>
+    <h3 id="countRound"></h3>
+    <div id="countHuman"></div>
+    <div id="countComputer"></div>
 </footer>
 <script src="stoneScissorsPaper.js"></script>
 </body>
