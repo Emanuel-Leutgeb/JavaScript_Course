@@ -1,0 +1,28 @@
+.goToLesson {
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    padding-left: var(--spacing-xxl);
+    padding-right: var(--spacing-xxl);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    margin: var(--spacing-l);
+}
+
+header {
+    text-align: center;
+    margin: var(--spacing-l) 0;
+    font-size: var(--font-size-xl);
+}
+
+main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    //justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
