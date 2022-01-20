@@ -1,0 +1,40 @@
+header {
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+
+}
+
+main {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > div {
+    width: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > div > div {
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+    margin: 0 10vh 10vh 10vh;
+
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    width: 10vh;
+    height: 5vh;
+    margin: 0 10vh;
+}
