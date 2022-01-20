@@ -1,0 +1,40 @@
+.goToLesson {
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    padding-left: var(--spacing-xxl);
+    padding-right: var(--spacing-xxl);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    margin: var(--spacing-l);
+}
+
+header {
+    text-align: center;
+    margin: var(--spacing-l) 0;
+    font-size: var(--font-size-xl);
+}
+
+main {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    //justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#lesson04_02_02, #lesson04_03_01, #lesson04_03_02 {
+    background-color: var(--color-primary);
+    width: 20vh;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#lesson04_03_02 {
+    background-color: red;
+}
