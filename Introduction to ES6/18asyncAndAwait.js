@@ -5,9 +5,13 @@ const photos = [];
 async function photoUpload() {
     let uploadStatus = new Promise((resolve, reject) => {
         setTimeout(() => {
-            photos.push("Profile Pic");
-            resolve("photo Uploaded")
-        }, 3000)
+            //photos.push("Profile Pic");
+            if (photos.length >= 1){
+                resolve("photo Uploaded")
+            } else{
+                reject("error")
+            }
+        }, 10000)
     })
 
     let result = await uploadStatus;
@@ -16,7 +20,10 @@ async function photoUpload() {
     console.log(photos.length);
 }
 
-photoUpload();
+photoUpload().catch((result) => console.log(result));
+
+
+photoUpload().catch((result) => console.log(result));
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 //Challenge 11
