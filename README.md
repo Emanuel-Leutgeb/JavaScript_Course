@@ -19,6 +19,8 @@ _____________________________________
         Lesson Day 03
 * Lesson 01_01 to 01_13
 
+## Week 02
+
 ### Day 04
     Week 01:
         Lesson Day 04
@@ -30,3 +32,16 @@ _____________________________________
         Lesson Day 04
 * Lesson 03_03 to 03_07
 * Competence check "stone scissors paper"
+
+### Day 06
+    Week 01:
+        Lesson Day 04
+* Introduction to ES6
+
+### Day 07
+    Week 02:
+        Lesson Day 01
+* Introduction to Jquery
+* Lesson 04_01 to 04_05 - not complete
+* Lesson 05_01 to 05_10 - not complete
+* Competence check "math quiz" - not complete
